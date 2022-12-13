@@ -42,11 +42,11 @@ describe('Scenarios where authentication is a pre-requirement', () => {
       cy.get('.navbar-toggle.collapsed').should('be.visible').click()
     }
 
-    /* ==== Generated with Cypress Studio ==== */
+    /* == Generated with Cypress Studio === */
     cy.get('.nav > :nth-child(2) > a').click()
     cy.get('#email').click()
     cy.get('.Login').click()
     cy.get('#email').should('be.visible')
-    /* ==== End Cypress Studio ==== */
+    /* == End Cypress Studio == */
   })
 })
