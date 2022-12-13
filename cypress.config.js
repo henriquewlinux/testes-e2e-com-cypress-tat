@@ -8,7 +8,8 @@ module.exports = defineConfig({
     defaultCommandTimeout: 30000,
     baseUrl: 'https://notes-serverless-app.com',
     chromeWebSecurity: false,
-    experimentalStudio: true
+    experimentalStudio: true,
+    projectId: 'vviifa'
   },
   env: {
     viewportWidthBreakpoint: 768
